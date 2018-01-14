@@ -1,0 +1,48 @@
+.container
+  .row
+    .col-md-7
+      .panel.panel-default
+        .panel-heading
+          h4 User Profile
+        .panel-body
+          .box.box-info
+            .box-body
+              .col-sm-6
+                div(align='center')
+                  img#profile-image1.img-circle.img-responsive(alt='User Pic', src='https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg')
+                  input#profile-image-upload.hidden(type='file')
+                  div(style='color:#999;') click here to change profile image
+                  // Upload Image Js And Css
+                br
+                // /input-group
+              .col-sm-6
+                h4(style='color:#00b1b1;') Prasad Shankar Huddedar
+                span
+                  p Aspirant
+              .clearfix
+              hr(style='margin:5px 0 5px 0;')
+              .col-sm-5.col-xs-6.tital First Name:
+              .col-sm-7.col-xs-6 Prasad
+              .clearfix
+              .bot-border
+              .col-sm-5.col-xs-6.tital Middle Name:
+              .col-sm-7  Shankar
+              .clearfix
+              .bot-border
+              .col-sm-5.col-xs-6.tital Last Name:
+              .col-sm-7  Huddedar
+              .clearfix
+              .bot-border
+              .col-sm-5.col-xs-6.tital Date Of Joining:
+              .col-sm-7 15 Jun 2016
+              .clearfix
+              .bot-border
+
+              // /.box-body
+            // /.box
+    script.
+      $(function() {
+      $('#profile-image1').on('click', function() {
+      $('#profile-image-upload').click();
+      });
+      });
