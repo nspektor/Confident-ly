@@ -1,0 +1,77 @@
+extends layout
+block head
+  
+  
+block content
+  .container
+    .row
+      .ui
+        a.btn(href='http://www.jquery2dotnet.com', role='button')
+          span.glyphicon.glyphicon-pencil(style='padding-right:4px;')
+          | Compose
+        a.btn.btn-danger(href='http://www.jquery2dotnet.com', role='button')
+          span.glyphicon.glyphicon-inbox(style='padding-right:4px;')
+          | Inbox
+        a.btn.btn-danger(href='http://www.jquery2dotnet.com', role='button')
+          span.glyphicon.glyphicon-send(style='padding-right:4px;')
+          | Send
+      .panel.panel-default.widget
+        .panel-heading
+          span.glyphicon.glyphicon-comment
+          h3.panel-title
+            | Messages
+        .panel-body
+          ul.list-group
+            li.list-group-item
+              .row
+                .col-xs-2.col-md-1
+                  img.img-circle.img-responsive(src='http://placehold.it/80', alt='')
+                .col-xs-10.col-md-11
+                  div
+                    a(href='#')
+                      | Congratulations
+                    .mic-info
+                      | By: 
+                      a(href='#') Check My Athletics
+                      |  on 12 Jun 2014
+                  .comment-text
+                    | We would like to congratulate John on his achievement...
+                  a.btn.btn-sm.btn-hover.btn-primary(href='#')
+                    span.glyphicon.glyphicon-share-alt(style='padding-right:3px;')
+                    | Reply
+                  a.btn.btn-sm.btn-hover.btn-danger(href='#')
+                    span.glyphicon.glyphicon-remove(style='padding-right:3px;')
+                    | Delete
+            li.list-group-item
+              .row
+                .col-xs-2.col-md-1
+                  img.img-circle.img-responsive(src='http://placehold.it/80', alt='')
+                .col-xs-10.col-md-11
+                  div
+                    a(href='#') Great Job
+                    .mic-info
+                      | By: 
+                      a(href='#') Coacher
+                      |  on 11 May 2014
+                  .comment-text
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                    | euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+
+
+
+  //- h1 Activities
+  //- p.lead There are a lot of things you can do to help yourself feel more confident and be more productive. 
+  //- hr
+  //- .row
+  //-   .col-sm-6
+  //-     .row
+  //-       h2 Activity 1 
+  //-       p Heres an activity 
+  //-       br
+  //-       a.btn.btn-default(href='#', role='button') Article link »
+  //-     .row
+  //-       h2 Activity 2 
+  //-       p Heres another activity 
+  //-       br
+  //-       a.btn.btn-default(href='#', role='button') Article link »
+  //- 
