@@ -36,6 +36,8 @@ const apiController = require('./controllers/api');
 const contactController = require('./controllers/contact');
 const chatController = require('./controllers/chat');
 const activitiesController = require('./controllers/activities');
+const activity2Controller = require('./controllers/activity2');
+
 
 /**
  * API keys and Passport configuration.
@@ -123,6 +125,7 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
 app.get('/', homeController.index);
 app.get('/chat', chatController.index);
 app.get('/activities', activitiesController.index);
+app.get('/activity2', activity2Controller.index);
 
 
 app.get('/login', userController.getLogin);
