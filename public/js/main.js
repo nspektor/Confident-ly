@@ -18,8 +18,30 @@
 //   })
 // })
 
-$(document).ready(function() {
-  console.log("HELLO")
-  // Place JavaScript code here...
 
+
+
+$(document).ready(function() {
+  console.log("this is the doc ready fxn")
+  // Place JavaScript code here...
+  const winForm = document.getElementById("form")
+  const winInput = document.getElementById("win")
+  const list = document.getElementById("recentWinList")
+
+  form.onsubmit = (event) => {
+    console.log("this is the onsubmit fxn")
+    console.log(winInput.value);
+    var newItem = document.createElement("LI");
+    var textnode = document.createTextNode(winInput.value);
+    newItem.appendChild(textnode);
+
+    list.insertBefore(newItem, list.childNodes[0]);
+
+    // recentWinList.innerText = winForm
+    // var li = document.createElement("LI");
+    // li.appendChild(document.createTextNode(winInput.value));
+    // recentWinList.appendChild(li);
+    event.preventDefault()
+
+  }
 })
