@@ -34,14 +34,24 @@ $(document).ready(function() {
     var newItem = document.createElement("LI");
     var textnode = document.createTextNode(winInput.value);
     newItem.appendChild(textnode);
-
     list.insertBefore(newItem, list.childNodes[0]);
-
-    // recentWinList.innerText = winForm
-    // var li = document.createElement("LI");
-    // li.appendChild(document.createTextNode(winInput.value));
-    // recentWinList.appendChild(li);
     event.preventDefault()
 
+  }
+
+  const message = document.getElementById("message")
+  const messageForm = document.getElementById("messageForm")
+  const convo = document.getElementById("convo")
+
+  console.log(message.value)
+  messageForm.onsubmit = (event) => {
+    console.log("hello")
+    console.log(message.value)
+    // var str += ".container-fluid.darker" +
+    //   "img.right(src='https://pbs.twimg.com/profile_images/605617721007407104/TwqgmR6u_400x400.jpg', alt='Avatar')" + "p" + message.value  + "span.time-left"
+    var str = '<div class="container-fluid"><img src="https://pbs.twimg.com/profile_images/3158376455/e2cd4307a63a741156e6af5916ebebbb.jpeg" alt="Avatar"><p>' + message.value + '</p><span class="time-right">11:15</span></div>'
+
+    convo.innerHTML +=  str
+    event.preventDefault()
   }
 })
