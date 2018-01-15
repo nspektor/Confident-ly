@@ -1,0 +1,19 @@
+.container-fluid
+  .row
+    .col-sm-9.main
+      block content
+    .col-sm-3.sidebar
+      Todays Win
+      .container-fluid
+        h2 Wins!
+        form(action='/action_page.php')
+          .form-group
+            label(for='win') Today's Win:
+            input#email.form-control(type='win', placeholder='Enter a Win', name='TodayWin')
+          button.btn.btn-default(type='submit') Submit
+        h3 Yesterday's Win
+        h3 Other Win
+        h3 Super old Win
+        h2 Top 5 Wins
+        
+    
