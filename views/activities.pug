@@ -1,7 +1,7 @@
 extends layout
 block head
-  
-  
+
+
 block content
   .container
     .row
@@ -15,6 +15,37 @@ block content
         a.btn.btn-danger(href='http://www.jquery2dotnet.com', role='button')
           span.glyphicon.glyphicon-send(style='padding-right:4px;')
           | Send
+      .panel.panel-default.widget
+        .panel-heading
+          span-comment
+          h3.panel-title
+            | Day 1 Challange
+        .panel-body
+          ul.list-group
+            li.list-group-item
+              .row
+                .col-xs-2.col-md-1
+                  img.img-circle.img-responsive(src='http://placehold.it/80', alt='')
+                .col-xs-10.col-md-11
+                  div
+                  .comment-text
+                    | You have the opportunity right this very instant to overcome your impostor syndrome. <br />
+                    |This is what we’re going to do. A Blog Confessional of sorts.
+                    | Write in the comments one thing you’ve avoided because you feel like a fraud. (If this is too much, you can email me… commenting will be more powerful though.) <br />
+                    | You can even stay anonymous if you want. Maybe you haven’t started that blog because you feel that you couldn’t do it as well as the people already blogging about a topic. <br />
+                    | Maybe you haven’t started your business because you don’t think you’re an “entrepreneur”. Maybe you haven’t talked to that pretty girl/guy. <br />
+                    |I don’t know. There are all sorts of thing. I’ll give you mine in a second. <br />
+                    | BONUS ROUND: Do something about it! If you don’t know what to do, I’ll give you a suggestion. The comment itself will be a huge step for sure. It’ll be even more huge to take the thing head on.
+                .form-group
+                  label(class='col-sm-2 control-label', for='message') Insert here:
+                  .col-sm-8
+                    textarea.form-control(name='message', id='message', rows='7')
+                  a.btn.btn-sm.btn-hover.btn-primary(href='#')
+                    span.share-alt(style='padding-right:3px;')
+                    | Submit
+                  a.btn.btn-sm.btn-hover.btn-danger(href='#')
+                    span-remove(style='padding-right:3px;')
+                    | Go To Day 2 Challange
       .panel.panel-default.widget
         .panel-heading
           span.glyphicon.glyphicon-comment
@@ -31,7 +62,7 @@ block content
                     a(href='#')
                       | Congratulations
                     .mic-info
-                      | By: 
+                      | By:
                       a(href='#') Check My Athletics
                       |  on 12 Jun 2014
                   .comment-text
@@ -50,7 +81,7 @@ block content
                   div
                     a(href='#') Great Job
                     .mic-info
-                      | By: 
+                      | By:
                       a(href='#') Coacher
                       |  on 11 May 2014
                   .comment-text
@@ -60,18 +91,18 @@ block content
 
 
   //- h1 Activities
-  //- p.lead There are a lot of things you can do to help yourself feel more confident and be more productive. 
+  //- p.lead There are a lot of things you can do to help yourself feel more confident and be more productive.
   //- hr
   //- .row
   //-   .col-sm-6
   //-     .row
-  //-       h2 Activity 1 
-  //-       p Heres an activity 
+  //-       h2 Activity 1
+  //-       p Heres an activity
   //-       br
   //-       a.btn.btn-default(href='#', role='button') Article link »
   //-     .row
-  //-       h2 Activity 2 
-  //-       p Heres another activity 
+  //-       h2 Activity 2
+  //-       p Heres another activity
   //-       br
   //-       a.btn.btn-default(href='#', role='button') Article link »
-  //- 
+  //-
