@@ -3,17 +3,17 @@
     .col-sm-9.main
       block content
     .col-sm-3.sidebar
-      Todays Win
+      TodaysWins
       .container-fluid
         h2 Wins!
-        form(action='/action_page.php')
+        form#form
           .form-group
             label(for='win') Today's Win:
-            input#email.form-control(type='win', placeholder='Enter a Win', name='TodayWin')
+            input#win.form-control(type='text', placeholder='Enter a Win', name='TodayWin')
           button.btn.btn-default(type='submit') Submit
         br
         - var recentWins = ['Figured out how to resolve a github merge problem', 'My boss told me that my cat website was an important contribution to the company', 'The cat website is super pretty now!','Made a little website that generates random cat pictures','Made a Github account and learned how to use it'];
-        ul
+        ul#recentWinList
           each val in recentWins.length ? recentWins : ['No wins yet']
             li= val
           
@@ -23,3 +23,4 @@
           each val in topWins.length ? topWins : ['No wins yet']
             li= val
     
+//- script(src='../controllers/sidebar.js')

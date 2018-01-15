@@ -1,0 +1,45 @@
+extends layout
+block head
+
+
+block content
+  .container-fluid
+    .row
+      .ui
+        a.btn(href='http://www.jquery2dotnet.com', role='button')
+          span.glyphicon.glyphicon-pencil(style='padding-right:4px;')
+          | Compose
+        a.btn.btn-danger(href='http://www.jquery2dotnet.com', role='button')
+          span.glyphicon.glyphicon-inbox(style='padding-right:4px;')
+          | Inbox
+        a.btn.btn-danger(href='http://www.jquery2dotnet.com', role='button')
+          span.glyphicon.glyphicon-send(style='padding-right:4px;')
+          | Send
+      .panel.panel-default.widget
+        .panel-heading
+          span-comment
+          h3.panel-title
+            | Day 2 Challenge
+        .panel-body
+          ul.list-group
+            li.list-group-item
+              .row
+                .col-xs-2.col-md-1
+                  img.img-circle.img-responsive(src='https://image.flaticon.com/icons/svg/206/206118.svg', alt='')
+                .col-xs-10.col-md-11
+                  div
+                  .comment-text
+                    | Do this: write for 10-30 minutes the most insane things about yourself. You will never show anybody this. <br/>
+                    | Write your most ridiculous beliefs, your most terrible thoughts, your biggest fraud! <br/> 
+                    | Just write gibberish if you think that is crazy. Push into the deepest taboos you hold. <br />
+                    | Seeing these written down doesn’t get rid of them but externalizing things puts them in a more sane perspective.
+                .form-group
+                  label(class='col-sm-2 control-label', for='message') Get Started!:
+                  .col-sm-8
+                    textarea.form-control(name='message', id='message', rows='7')
+                  a.btn.btn-sm.btn-hover.btn-primary(href='#')
+                    span.share-alt(style='padding-right:3px;')
+                    | Submit
+                  a.btn.btn-sm.btn-hover.btn-danger(href='./chat')
+                    span-remove(style='padding-right:3px;')
+                    | Go To Day 3 Challenge
