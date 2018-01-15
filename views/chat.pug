@@ -91,19 +91,10 @@ block content
     p I had done some research and found out that men and women are impacted in roughly the same numbers. Do you think these feelings of inadequacy are peculiar to the tech sphere or might even extend to things like relationships?
     span.time-left 11:11
   br
-<<<<<<< HEAD
-  form.form-inline
-    .form-group.mb-4
-      label.sr-only(for='Message') Message
-      input#inlineFormInput.form-control.mb-4(type='text', placeholder='Message')
-    button.btn.btn-primary.mb-2(type='submit') Send
-=======
-  .container-fluid
-    .col-md-auto
-      .form-group
-        label(for='message')
-        input#message.form-control(type='text', placeholder='Message')
-        button.btn.btn-primary(type='submit') Send
-
->>>>>>> e646fcce418ce64689b72a0895514d3e770912f3
+  form-group
+    .col-md-11
+      textarea.form-control(type='text', name='message', id='message', rows='7', placeholder='Message')
+    a.btn.btn-sm.btn-hover.btn-primary(type='subit')
+      span.share-alt(style='padding-right:3px;')
+      | Send
   
