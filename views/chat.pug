@@ -1,14 +1,14 @@
 extends layout
 
 block head
-  meta(name='viewport', content='width=device-width, initial-scale=1')
+  //- meta(name='viewport', content='width=device-width, initial-scale=1')
   style.
     @import 'main.scss'
     .container {
     border: 2px solid #dedede;
     background-color: #f1f1f1;
     border-radius: 5px;
-    padding: 10px;
+    padding: 100px;
     margin: 10px 0;
     }
     .darker {
@@ -42,23 +42,24 @@ block head
     }
 
 block content
-  h1 Chat!
+  h1 Chat
+  h3       Your convo with msry4n
   .container
     img(src='https://www.w3schools.com/w3images/bandmember.jpg', alt='Avatar', style='width:100%;')
-    p Hello. How are you today?
-    span.time-right 11:00
+    p Hey! I saw your post about trouble you have in the workplace because you feel you always have to work harder than your male co-workers. I wonder if imposter syndrome is so prevalent in tech bc men are so willing to talk confidently about stuff they don't really know about and women often are not as willing. 
+    span.time-right 11:06
   .container.darker
     img.right(src='https://www.w3schools.com/w3images/avatar_g2.jpg', alt='Avatar', style='width:100%;')
-    p Hey! I'm fine. Thanks for asking!
-    span.time-left 11:01
+    p That's super interesting. The worst part of imposter syndrome, to me, is that I see it affect so many valuable people, especially those in the tech scene. Considering the negative social trends associated with tech (i.e. silicon valley culture) at the moment, finding a way to combat imposter syndrome would be extremely valuable.
+    span.time-left 11:08
   .container
     img(src='https://www.w3schools.com/w3images/bandmember.jpg', alt='Avatar', style='width:100%;')
-    p Sweet! So, what do you wanna do today?
-    span.time-right 11:02
+    p As I get further in my master's degree in CS I can see how full of it some men are and how much they can get away with it.
+    span.time-right 11:09
   .container.darker
     img.right(src='https://www.w3schools.com/w3images/avatar_g2.jpg', alt='Avatar', style='width:100%;')
-    p Nah, I dunno.  soccer.. or learn more coding perhaps?
-    span.time-left 11:05
+    p I had done some research and found out that men and women are impacted in roughly the same numbers. Do you think these feelings of inadequacy are peculiar to the tech sphere or might even extend to things like relationships?
+    span.time-left 11:11
   .container
     .form-group
       label(class='col-sm-2 control-label', for='message') Enter Text:
@@ -67,3 +68,4 @@ block content
       a.btn.btn-sm.btn-hover.btn-primary(href='#')
         span.share-alt(style='padding-right:3px;')
         | Submit
+
