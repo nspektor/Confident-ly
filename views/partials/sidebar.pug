@@ -11,9 +11,15 @@
             label(for='win') Today's Win:
             input#email.form-control(type='win', placeholder='Enter a Win', name='TodayWin')
           button.btn.btn-default(type='submit') Submit
-        h3 Yesterday's Win
-        h3 Other Win
-        h3 Super old Win
+        br
+        - var recentWins = ['Figured out how to resolve a github merge problem', 'My boss told me that my cat website was an important contribution to the company', 'The cat website is super pretty now!','Made a little website that generates random cat pictures','Made a Github account and learned how to use it'];
+        ul
+          each val in recentWins.length ? recentWins : ['No wins yet']
+            li= val
+          
         h2 Top 5 Wins
-        
+        - var topWins = ['Got hired at a really awesome startup', '...'];
+        ul
+          each val in topWins.length ? topWins : ['No wins yet']
+            li= val
     
