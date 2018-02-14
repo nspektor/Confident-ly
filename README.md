@@ -10,6 +10,14 @@ Create a community to help people gain confidence in their own abilities and ins
 -    [ ] Get more people to use our website to create a community environment
 -    [ ] More things?
 
+## How To Run
+1. clone the directory 
+2. in terminal, navigate to the directory you cloned and run: npm install
+3. install [mongodb](https://docs.mongodb.com/getting-started/shell/installation/)
+4. in terminal, type: mongod
+5. in a new terminal window at the same location, type: node app.js
+6. open http://localhost:8080 in a web browser
+
 ## Project Structure
 
 | Name                               | Description                                                  |
