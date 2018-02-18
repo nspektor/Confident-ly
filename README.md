@@ -8,7 +8,7 @@ Create a community to help people gain confidence in their own abilities and ins
 
 -    [ ] Raise awareness for imposter syndrome.
 -    [ ] Get more people to use our website to create a community environment
--    [ ] More things?
+-    [ ] Create a better and more cohesive user experience
 
 ## How To Run
 1. clone the directory 
