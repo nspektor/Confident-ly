@@ -3,7 +3,7 @@
 
 ![alt text](https://github.com/nspektor/Confident-ly/blob/master/confident.ly%20Screen%20Shot.png?raw=true)
 
-## __Our Mission:__
+## __Our Mission__
 Create a community to help people gain confidence in their own abilities and instill a sense of belonging.
 
 ## __Future Planning__ - what we hope to accomplish:
@@ -56,5 +56,5 @@ https://github.com/nspektor/Confident-ly/blob/master/imposterDataViz/Assessment.
 | package.json                       | NPM dependencies.                                            |
 | package-lock.lock                          | Contains exact versions of NPM dependencies in package.json. |
 
-## Credits:
+## Credits
    https://github.com/sahat/hackathon-starter
