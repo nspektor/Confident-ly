@@ -1,5 +1,5 @@
 # Confident.ly
-#### __Made by -__ Nellie Spektor, Mark Abramov & Amir Lavi
+#### __Made by the Confidence Alliance: __ Nellie Spektor, Mark Abramov & Amir Lavi
 
 ![alt text](https://github.com/nspektor/Confident-ly/blob/master/confident.ly%20Screen%20Shot.png?raw=true)
 
@@ -48,5 +48,4 @@ Create a community to help people gain confidence in their own abilities and ins
 | package-lock.lock                          | Contains exact versions of NPM dependencies in package.json. |
 
 ## Credits:
-    # https://github.com/sahat/hackathon-starter
-    #
+   https://github.com/sahat/hackathon-starter
