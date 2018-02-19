@@ -21,7 +21,7 @@ Create a community to help people gain confidence in their own abilities and ins
 6. open http://localhost:8080 in a web browser
 
 ## Check Out Our Survey Results
-We put out a survey to find out how valuable our project would be to those who suffer from imposter syndrome, and to help us decide how to implement features to maximize impact. 
+We put out a survey (https://goo.gl/forms/lSO2p4BAgmgwOzeI3) to find out how valuable our project would be to those who suffer from imposter syndrome, and to help us decide how to implement features to maximize impact. 
 We got over 160 responses in just a day and a half, and you can find a summary of the first 187 responses here:
 
 https://github.com/nspektor/Confident-ly/blob/master/imposterDataViz/Assessment.csv.zip
