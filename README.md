@@ -22,7 +22,7 @@ Create a community to help people gain confidence in their own abilities and ins
 
 ## Check Out Our Survey Results
 We put out a [survey](https://goo.gl/forms/lSO2p4BAgmgwOzeI3) to find out how valuable our project would be to those who suffer from imposter syndrome, and to help us decide how to implement features to maximize impact. 
-We got over 160 responses in just a day and a half, and you can find a summary of the first 187 responses [here](https://github.com/nspektor/Confident-ly/blob/master/imposterDataViz/Assessment.csv.zip)
+We got over 160 responses in just a day and a half, and you can find a summary of the first 187 responses [here](https://github.com/nspektor/Confident-ly/blob/master/imposterDataViz/Assessment.csv.zip).
 
 ![alt text](https://raw.githubusercontent.com/nspektor/Confident-ly/9fa728e79b1b8670ab58951814dc8d6ef4fa6829/imposterDataViz/Screen%20Shot%202018-02-18%20at%203.53.59%20PM.png)
 
